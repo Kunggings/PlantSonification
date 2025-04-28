@@ -33,7 +33,7 @@ void loop() {
   } else {
     Serial.print(analogRead(SENSOR_A_READ)); // Otherwise, read and send Sensor A value
   }
-  Serial.print("a")
+  Serial.print("a");
 
   // Sensor B
   if ((digitalRead(SENSOR_B_NEGATIVE) == 1) || (digitalRead(SENSOR_B_POSITIVE) == 1)) {
@@ -41,7 +41,7 @@ void loop() {
   } else {
     Serial.print(analogRead(SENSOR_B_READ)); // Otherwise, read and send Sensor B value
   }
-  Serial.print("b")
+  Serial.print("b");
 
   // Read button value
   int currentReading = digitalRead(BUTTON_PIN);
